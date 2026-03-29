@@ -31,6 +31,28 @@ npm run dev:frontend
 Frontend defaults to `http://localhost:3000`.
 Backend defaults to `http://localhost:4000`.
 
+## GitHub Pages Deployment
+
+The frontend is configured for static export and can be deployed from GitHub Actions to:
+
+- `https://remove.khanjansevakendra.shop`
+
+Required GitHub repository setup:
+
+1. Open `Settings > Pages`.
+2. Under `Build and deployment`, set `Source` to `GitHub Actions`.
+3. Add a repository variable named `NEXT_PUBLIC_API_BASE_URL` that points to your live backend API, for example `https://your-backend.example.com`.
+
+The workflow file is:
+
+- `.github/workflows/deploy-pages.yml`
+
+Important:
+
+- GitHub Pages only hosts the `frontend` app.
+- The `backend` Express server cannot run on GitHub Pages, so uploads and card generation will only work after the backend is deployed separately.
+- The custom domain is kept via the existing `CNAME` file: `remove.khanjansevakendra.shop`.
+
 ## Notes
 
 - `fields.json` defines the coordinates used by the render engine.

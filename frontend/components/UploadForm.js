@@ -2,8 +2,12 @@ import Link from "next/link";
 import { useState } from "react";
 import CropEditor from "./CropEditor";
 import { DEFAULT_ADJUSTMENT_CONTROLS } from "../lib/services";
-
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:4000";
+import {
+  API_BASE_URL,
+  HAS_API_BASE_URL,
+  getApiErrorMessage,
+  getMissingApiBaseUrlMessage
+} from "../lib/api";
 const BASE_ADJUSTMENTS = {
   brightness: 1,
   contrast: 1,
@@ -70,6 +74,11 @@ export default function UploadForm({ service, onPreviewStateChange }) {
 
     if (!selectedFile) {
       setStatus("Please select a file before uploading.");
+      return;
+    }
+
+    if (!HAS_API_BASE_URL) {
+      setStatus(getMissingApiBaseUrlMessage());
       return;
     }
 
@@ -206,7 +215,7 @@ export default function UploadForm({ service, onPreviewStateChange }) {
       });
       setStatus("Extraction and card generation complete.");
     } catch (error) {
-      setStatus(error.message || "Upload failed.");
+      setStatus(getApiErrorMessage(error, "Upload failed."));
     }
   }
 
@@ -236,6 +245,11 @@ export default function UploadForm({ service, onPreviewStateChange }) {
 
   async function handleSaveCropPreset() {
     if (!pendingCropSetup) {
+      return;
+    }
+
+    if (!HAS_API_BASE_URL) {
+      setStatus(getMissingApiBaseUrlMessage());
       return;
     }
 
@@ -283,7 +297,7 @@ export default function UploadForm({ service, onPreviewStateChange }) {
       });
       setStatus("Crop preset saved. Future PDF uploads will auto-crop.");
     } catch (error) {
-      setStatus(error.message || "Unable to save crop preset.");
+      setStatus(getApiErrorMessage(error, "Unable to save crop preset."));
     }
   }
 
@@ -315,6 +329,11 @@ export default function UploadForm({ service, onPreviewStateChange }) {
   }
 
   async function handleResetCropPreset() {
+    if (!HAS_API_BASE_URL) {
+      setStatus(getMissingApiBaseUrlMessage());
+      return;
+    }
+
     try {
       await fetch(`${API_BASE_URL}/crop-config/${service.slug}`, {
         method: "DELETE"
@@ -333,7 +352,7 @@ export default function UploadForm({ service, onPreviewStateChange }) {
       });
       setStatus("Saved crop preset reset ho gaya. Ab next PDF upload par fresh crop set kar sakte ho.");
     } catch (error) {
-      setStatus(error.message || "Crop preset reset nahi ho paya.");
+      setStatus(getApiErrorMessage(error, "Crop preset reset nahi ho paya."));
     }
   }
 
@@ -364,7 +383,7 @@ export default function UploadForm({ service, onPreviewStateChange }) {
           />
         </label>
 
-        <button className="button primary" type="submit">
+        <button className="button primary" type="submit" disabled={!HAS_API_BASE_URL}>
           Upload and Generate
         </button>
 
@@ -386,7 +405,12 @@ export default function UploadForm({ service, onPreviewStateChange }) {
         ) : null}
 
         {cropEnabled ? (
-          <button className="button reset-button" type="button" onClick={handleResetCropPreset}>
+          <button
+            className="button reset-button"
+            type="button"
+            onClick={handleResetCropPreset}
+            disabled={!HAS_API_BASE_URL}
+          >
             Reset Saved Crop
           </button>
         ) : null}

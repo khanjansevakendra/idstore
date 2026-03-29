@@ -1,6 +1,5 @@
 import TemplatePreview from "./TemplatePreview";
-
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:4000";
+import { API_BASE_URL } from "../lib/api";
 const OUTPUT_ASPECT_RATIO = "1012 / 638";
 
 function CropLivePreview({ imageUrl, crop, label, adjustments }) {

@@ -1,6 +1,10 @@
 import { useMemo, useState } from "react";
-
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:4000";
+import {
+  API_BASE_URL,
+  HAS_API_BASE_URL,
+  getApiErrorMessage,
+  getMissingApiBaseUrlMessage
+} from "../lib/api";
 
 const DEFAULT_TEXT_STYLE = {
   text: "Edit this text",
@@ -89,6 +93,11 @@ export default function ResumeEditor() {
       return;
     }
 
+    if (!HAS_API_BASE_URL) {
+      setStatus(getMissingApiBaseUrlMessage());
+      return;
+    }
+
     try {
       const formData = new FormData();
       formData.append("document", selectedFile);
@@ -129,7 +138,7 @@ export default function ResumeEditor() {
       setCurrentPage(0);
       setStatus("PDF preview ready. Add safe overlays for your resume review copy.");
     } catch (error) {
-      setStatus(error.message || "Unable to prepare preview.");
+      setStatus(getApiErrorMessage(error, "Unable to prepare preview."));
     }
   }
 

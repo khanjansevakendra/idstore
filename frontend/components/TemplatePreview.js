@@ -1,3 +1,5 @@
+import { API_BASE_URL, HAS_API_BASE_URL, getMissingApiBaseUrlMessage } from "../lib/api";
+
 const templateThemes = {
   aadhaar: {
     accent: "#c96c3a",
@@ -56,8 +58,6 @@ export default function TemplatePreview({ service, serviceName, fields }) {
     service.startsWith("student-id") ||
     service.startsWith("custom-identity") ||
     service.startsWith("aadhaar-sample");
-  const apiBaseUrl =
-    process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:4000";
   const showFolderTemplate =
     service.startsWith("custom-identity") || service.startsWith("aadhaar-sample");
 
@@ -153,11 +153,15 @@ export default function TemplatePreview({ service, serviceName, fields }) {
             <article className="template-artboard student-artboard">
               {showFolderTemplate ? (
                 <div className="folder-template-preview clean-template-preview">
-                  <img
-                    src={`${apiBaseUrl}/template-assets/other_cards/front.png`}
-                    alt="Custom front template from folder"
-                    className="folder-template-image"
-                  />
+                  {HAS_API_BASE_URL ? (
+                    <img
+                      src={`${API_BASE_URL}/template-assets/other_cards/front.png`}
+                      alt="Custom front template from folder"
+                      className="folder-template-image"
+                    />
+                  ) : (
+                    <p className="muted">{getMissingApiBaseUrlMessage()}</p>
+                  )}
                 </div>
               ) : (
                 <div className="student-card">
@@ -200,11 +204,15 @@ export default function TemplatePreview({ service, serviceName, fields }) {
             <article className="template-artboard student-artboard">
               {showFolderTemplate ? (
                 <div className="folder-template-preview clean-template-preview">
-                  <img
-                    src={`${apiBaseUrl}/template-assets/other_cards/back.png`}
-                    alt="Custom back template from folder"
-                    className="folder-template-image"
-                  />
+                  {HAS_API_BASE_URL ? (
+                    <img
+                      src={`${API_BASE_URL}/template-assets/other_cards/back.png`}
+                      alt="Custom back template from folder"
+                      className="folder-template-image"
+                    />
+                  ) : (
+                    <p className="muted">{getMissingApiBaseUrlMessage()}</p>
+                  )}
                 </div>
               ) : (
                 <div className="student-card student-card-back">

@@ -1,0 +1,19 @@
+{
+  "service": "e-shram",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/9a80bafc-b54d-4857-b0f0-9393d7256cb1.pdf",
+  "extractedAt": "2026-03-20T06:02:29.912Z",
+  "fields": {
+    "name": "E Shram Holder",
+    "name_hi": "",
+    "name_en": "E Shram Holder",
+    "dob": "Not found",
+    "gender": "Not found",
+    "id_number": "9A80-6CB1",
+    "masked_id": "",
+    "vid": "",
+    "issued_date": "",
+    "address": "Address not found in document",
+    "source_text": "",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/9a80bafc-b54d-4857-b0f0-9393d7256cb1-photo-000.png"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service": "aadhaar-sample",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/7a3ca274-791d-4ebb-9e44-7b88035941f7.pdf",
+  "extractedAt": "2026-03-19T12:42:25.601Z",
+  "fields": {
+    "name": "Mohammad Rehan Mohammad Khurshid Khan",
+    "name_hi": "",
+    "name_en": "Mohammad Rehan Mohammad Khurshid Khan",
+    "dob": "15/11/2006",
+    "gender": "Male",
+    "id_number": "4437 2596 3209",
+    "masked_id": "4437 2596 3209",
+    "vid": "9112 0285 0744 3796",
+    "issued_date": "18/11/2011",
+    "address": "C/O Mohammad Faizan Mohammad Khurshid Khan, house no 3103 SR no 138 akbar ali compound, shanti, nagar, vasai e, Vasai, PO: Nallosapara E, DIST:, Palghar, Maharashtra - 401209",
+    "source_text": "Enrolment No.: 0000/00193/60770\nTo\nMohammad Rehan Mohammad Khurshid Khan\nC/O Mohammad Faizan Mohammad Khurshid Khan,\nhouse no 3103 SR no 138 akbar ali compound,\nshanti nagar,\nvasai e,\nVTC: Vasai,\nPO: Nallosapara E,\nSub District: Vasai,\nDistrict: Palghar,\nState: Maharashtra,\nPIN Code: 401209,\nMobile: 8625041242\nSignature Not Verified\nDigitally signed by DS Unique\nIdentification Authority of India\n06\nDate: 2026.03.19 18:11:31\nIST\n4437 2596 3209\nMohammad Rehan Mohammad Khurshid Khan\nDate of Birth/DOB: 15/11/2006\nMale/ MALE\n4437 2596 3209\nDetails as on: 19/03/2026\nAadhaar no. issued: 18/11/2011\nVID : 9112 0285 0744 3796\nAddress:\nC/O Mohammad Faizan Mohammad Khurshid Khan,\nhouse no 3103 SR no 138 akbar ali compound, shanti\nnagar, vasai e, Vasai, PO: Nallosapara E, DIST:\nPalghar,\nMaharashtra - 401209\n4437 2596 3209\nVID : 9112 0285 0744 3796",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/7a3ca274-791d-4ebb-9e44-7b88035941f7-photo-006.png"
+  }
+}

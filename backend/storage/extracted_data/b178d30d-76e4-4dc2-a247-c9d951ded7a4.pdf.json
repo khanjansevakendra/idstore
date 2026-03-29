@@ -1,0 +1,19 @@
+{
+  "service": "aadhaar-sample",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/b178d30d-76e4-4dc2-a247-c9d951ded7a4.pdf",
+  "extractedAt": "2026-03-20T04:40:18.634Z",
+  "fields": {
+    "name": "Arbaz Khan",
+    "name_hi": "",
+    "name_en": "Arbaz Khan",
+    "dob": "Not found",
+    "gender": "Not found",
+    "id_number": "P3OAJMJRF",
+    "masked_id": "P3OAJMJRF",
+    "vid": "",
+    "issued_date": "",
+    "address": "Address not found in document",
+    "source_text": "Card Generated on : Sat Nov 24 11:21:27 IST 2018\nArbaz Khan\n2001\nM\nSonbarsa\nBasti\nBASTI\n56-0376-7454-8545\nP3OAJMJRF",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/b178d30d-76e4-4dc2-a247-c9d951ded7a4-photo-004.png"
+  }
+}

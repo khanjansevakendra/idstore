@@ -1,0 +1,10 @@
+{
+  "issued_date": { "x": 36, "y": 555, "rotate": -90, "fontSize": 20 },
+  "name_hi": { "x": 210, "y": 165, "fontSize": 30 },
+  "name_en": { "x": 210, "y": 220, "fontSize": 34 },
+  "dob": { "x": 210, "y": 292, "fontSize": 28 },
+  "gender": { "x": 210, "y": 352, "fontSize": 28 },
+  "masked_id": { "x": 515, "y": 545, "fontSize": 44 },
+  "vid": { "x": 515, "y": 585, "fontSize": 28 },
+  "photo": { "x": 38, "y": 250, "width": 180, "height": 220 }
+}

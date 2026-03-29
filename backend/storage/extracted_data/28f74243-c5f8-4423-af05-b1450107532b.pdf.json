@@ -1,0 +1,19 @@
+{
+  "service": "ayushman-card",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/28f74243-c5f8-4423-af05-b1450107532b.pdf",
+  "extractedAt": "2026-03-29T07:57:28.428Z",
+  "fields": {
+    "name": "Ayushman Card Holder",
+    "name_hi": "",
+    "name_en": "Ayushman Card Holder",
+    "dob": "Not found",
+    "gender": "Not found",
+    "id_number": "P3OAJMJRF",
+    "masked_id": "P3OAJMJRF",
+    "vid": "",
+    "issued_date": "",
+    "address": "Address not found in document",
+    "source_text": "Card Generated on : Sat Nov 24 11:21:27 IST 2018\nArbaz Khan\n2001\nM\nSonbarsa\nBasti\nBASTI\n56-0376-7454-8545\nP3OAJMJRF",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/28f74243-c5f8-4423-af05-b1450107532b-photo-004.png"
+  }
+}

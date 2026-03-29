@@ -1,0 +1,19 @@
+{
+  "service": "abha-health-id",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/2f0ed3eb-2da2-42aa-8ccc-6fc1dc4b44e1.pdf",
+  "extractedAt": "2026-03-20T06:25:04.093Z",
+  "fields": {
+    "name": "Abha Health Id Holder",
+    "name_hi": "",
+    "name_en": "Abha Health Id Holder",
+    "dob": "Not found",
+    "gender": "Male",
+    "id_number": "7860764297",
+    "masked_id": "7860764297",
+    "vid": "",
+    "issued_date": "",
+    "address": "arbazkhan9648@abdm, Gender/िलं ग",
+    "source_text": "Ayushman Bharat Health Account (ABHA)\nआयुष्मान भारत स्वास्थ्य खाता (आभा)\nName/नाम\nArbaz Khan\nअरबाज़ खान\nABHA number/आभा-संख्य ा\n56-0376-7454-8545\nABHA address/आभा पता\narbazkhan9648@abdm\nGender/िलं ग\nDate of birth/जन्मितिथ\nMobile/मोबाइल\nMale/पुरु ष\n10-04-2001\n7860764297\nAyushman Bharat Health Account (ABHA)\nआयुष्मान भारत स्वास्थ्य खाता (आभा)\nInstructions\nToll- Free Number: 1800114477\n• With this ABHA you have become a part of India's digital health ecosystem.\nइस आभा के साथ आप भारत के िडिजटल हेल्थ इकोिसस्टम का िहस्सा बन गए हैं।\n• ABHA provides you a unique identification and helps in storing - safekeeping all your digital health\nrecords at one place.\nआभा आपको एक िविशष्ट पहचान प्रदान करता है और आपके सभी िडिजटल स्वास्थ्य िरकॉडर् को सुर िक्षत एक ही स्थान पर संग्र हीत रखने में\nमदद करता है।\n• You can download the ABHA mobile app, Aarogya Setu or other ABDM enabled app to view and share\nyour digital health records with ABDM registered healthcare service providers.\nआप एबीडीएम पंज ीकृ त स्वास्थ्य सेव ा प्रदाताओ ं के साथ अपने िडिजटल स्वास्थ्य िरकॉडर् दे ख ने और साझा करने के िलए आभा मोबाइल ऐप,\nआरोग्य सेत ु या अन्य एवीडीएम सक्षम ऐप डाउनलोड कर सकते हैं।\n• If this card is lost kindly download it from www.abha.abdm.gov.in, it is digitally acceptable.\nयिद यह काडर् खो जाता है तो कृ पया इसे www.abha.abdm.gov.in से डाउनलोड करें, यह िडिजटल रूप से स्वीकायर् है।",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/2f0ed3eb-2da2-42aa-8ccc-6fc1dc4b44e1-photo-001.png"
+  }
+}

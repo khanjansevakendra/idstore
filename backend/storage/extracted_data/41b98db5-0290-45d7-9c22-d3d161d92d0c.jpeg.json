@@ -1,0 +1,13 @@
+{
+  "service": "student-id-card",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/41b98db5-0290-45d7-9c22-d3d161d92d0c.jpeg",
+  "extractedAt": "2026-03-19T10:12:41.078Z",
+  "fields": {
+    "name": "Student Id Card Holder",
+    "dob": "01/01/1990",
+    "gender": "Male",
+    "id_number": "41B9-2D0C",
+    "address": "Sample address captured from parser pipeline",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/41b98db5-0290-45d7-9c22-d3d161d92d0c.jpeg"
+  }
+}

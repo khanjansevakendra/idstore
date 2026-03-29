@@ -1,0 +1,13 @@
+{
+  "service": "aadhaar",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/ac03a367-9f34-42cc-aeb8-f6d49c902364.pdf",
+  "extractedAt": "2026-03-19T08:34:21.228Z",
+  "fields": {
+    "name": "Aadhaar Holder",
+    "dob": "01/01/1990",
+    "gender": "Male",
+    "id_number": "AC03-2364",
+    "address": "Sample address captured from parser pipeline",
+    "photo": ""
+  }
+}

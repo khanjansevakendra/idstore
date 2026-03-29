@@ -1,0 +1,19 @@
+{
+  "service": "ayushman-card",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/3e871017-6b72-4278-89b0-b9c4d45356bd.pdf",
+  "extractedAt": "2026-03-20T05:41:52.726Z",
+  "fields": {
+    "name": "Ayushman Card Holder",
+    "name_hi": "",
+    "name_en": "Ayushman Card Holder",
+    "dob": "Not found",
+    "gender": "Not found",
+    "id_number": "3E87-56BD",
+    "masked_id": "",
+    "vid": "",
+    "issued_date": "",
+    "address": "Address not found in document",
+    "source_text": "",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/3e871017-6b72-4278-89b0-b9c4d45356bd-photo-000.png"
+  }
+}

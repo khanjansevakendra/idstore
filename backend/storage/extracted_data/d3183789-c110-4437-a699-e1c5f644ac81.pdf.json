@@ -1,0 +1,19 @@
+{
+  "service": "aadhaar-sample",
+  "filePath": "/Users/arbaz/Desktop/id card/backend/storage/uploads/d3183789-c110-4437-a699-e1c5f644ac81.pdf",
+  "extractedAt": "2026-03-19T13:45:26.628Z",
+  "fields": {
+    "name": "Arbaz Khan",
+    "name_hi": "अरबाज़ खान",
+    "name_en": "Arbaz Khan",
+    "dob": "10/04/2001",
+    "gender": "Male",
+    "id_number": "9120 0766 1313",
+    "masked_id": "9120 0766 1313",
+    "vid": "9120 0766 1313 5022",
+    "issued_date": "17/01/2015",
+    "address": "C/O Mohammad Ahmad, Village-Sonbarsa, PostBhelkha, Bhelkha, PO: Purani Basti, DIST: Basti, Uttar Pradesh - 272002, XXXX XXXX 7234",
+    "source_text": "नामांकन क्रम/ Enrolment No.: 0636/10662/49943\nTo\nअरबाज़ खान\nArbaz Khan\nC/O Mohammad Ahmad,\nVillage-Sonbarsa,\nPost-Bhelkha,\nVTC: Bhelkha,\nPO: Purani Basti,\nSub District: Basti,\nDistrict: Basti,\nState: Uttar Pradesh,\nPIN Code: 272002,\nMobile: 7860764297\nSignature Not Verified\nDigitally signed by DS Unique\nIdentification Authority of India\n06\nDate: 2026.03.16 23:04:47\nIST\nXXXX XXXX 7234\nअरबाज़ खान\nArbaz Khan\nजन्म तिथि/DOB: 10/04/2001\nपुरुष/ MALE\nXXXX XXXX 7234\nDetails as on: 16/03/2026\nAadhaar no. issued: 17/01/2015\nVID : 9120 0766 1313 5022\nपता:\nC/O मोहम्मद अहमद, गांव-सोनबरसा, पोस्ट-भेल्खा, भेल्खा,\nपुरानी बस्ती, बस्ती,\nउत्तर प्रदेश - 272002\nAddress:\nC/O Mohammad Ahmad, Village-Sonbarsa, PostBhelkha, Bhelkha, PO: Purani Basti, DIST: Basti,\nUttar Pradesh - 272002\nXXXX XXXX 7234\nVID : 9120 0766 1313 5022",
+    "photo": "/Users/arbaz/Desktop/id card/backend/storage/uploads/d3183789-c110-4437-a699-e1c5f644ac81-photo-006.png"
+  }
+}
